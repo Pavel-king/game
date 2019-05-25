@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 320px;
+    height: 480px;
+    background: url("images/game_bg.jpg") 0 0 no-repeat;
+    margin: 100px auto;
+    position: relative;
+}
+.container h1{
+    color: white;
+    margin-left: 60px;
+}
+.container .progress{
+    /* width: 180px; 在js中初始化*/
+    width: 0px;
+    height: 16px;
+    background: url("images/progress.png") 0 0 no-repeat;
+    position: absolute;
+    left: 63px;
+    top: 66px;
+}
+.container .start{
+    width: 150px;
+    line-height: 35px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #e55c3d, #c50000);
+    border-style: none;
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -75px;
+}
+.container .rules{
+    width: 100%;
+    height: 20px;
+    background: #ccc;
+    color: #000;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.container .rule{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    line-height: 50px;
+    padding-top: 100px;
+    box-sizing: border-box;
+    color: white;
+    display: none;  /*--------------*/
+}
+.container .rule a{
+    color: red;
+}
+.container .over{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    text-align: center;
+    padding-top: 200px;
+    box-sizing: border-box;
+    display: none;  /*--------------*/
+}
+.container .over h1{
+    margin-left: 0px;
+    color: #ff4500;
+    text-shadow: 3px 3px white;
+}
+.container .over button{
+    width: 150px;
+    line-height: 35px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, #74accf, #007ddc);
+    border-style: none;
+    border-radius: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    margin-left: -75px;
+}
